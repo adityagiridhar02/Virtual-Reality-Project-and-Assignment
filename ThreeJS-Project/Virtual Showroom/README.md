@@ -12,9 +12,8 @@ A first-person player controller with collision detection.
 
 Interactive triggers to display information about each car.
 
-The ability to "enter" and "exit" cars for an immersive interior view.
+The ability to "enter" and "exit" a car for an immersive interior view.
 
-Per-car customizable camera positions for the interior view.
 
 ✨ Key Features
 Virtual Walkthrough: Navigate the showroom using WASD and the mouse.
