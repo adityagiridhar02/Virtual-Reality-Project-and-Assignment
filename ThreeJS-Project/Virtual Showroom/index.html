@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity Motors Showroom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="blocker">
+        <div id="instructions">
+            <p>Left Click to Move</p>
+            <p>
+                Move: WASD<br/>
+                Run: Shift<br/>
+                Look: Mouse<br/>
+            </p>
+        </div>
+    </div>
+
+    <div id="purchasePrompt" class="ui-prompt">
+        <p>You are near the <span id="carNameForPurchase"></span>!</p>
+        <p>Price: <span id="carPriceForPurchase"></span></p>
+        <p>Press 'I' to select this car for purchase.</p>
+    </div>
+
+    
+
+    <div id="billingPrompt" class="ui-prompt">
+        <p>Billing Counter</p>
+        <p><span id="billingTotalText">Total: $0</span></p>
+        <p>Press 'E' to confirm purchase, 'Q' to decline.</p>
+    </div>
+
+    <div id="purchaseConfirmation" class="ui-message success">
+        <p>Your New car will be delivered soon!</p><br>
+        <p>Thanks for shopping with Velocity Motors!</p>
+    </div>
+
+    <div id="purchaseDeclined" class="ui-message error">
+        <p>Purchase Declined. Maybe next time!</p>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
